@@ -1,5 +1,5 @@
 # Box
-Box的官方文档。
+[Box](https://github.com/boxgo/box)的官方文档。
 
 # 开发
 1. 安装 `npm install`
