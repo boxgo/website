@@ -1,6 +1,7 @@
 const moment = require("moment");
 
 module.exports = {
+  base: "/website/",
   title: "Box",
   description: "Easy to build enterprise services with box",
   head: [],
