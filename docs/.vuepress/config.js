@@ -60,6 +60,12 @@ module.exports = {
         },
       },
     ],
+    [
+      'vuepress-plugin-baidu-tongji-analytics',
+      {
+        key: 'f13bb977c3e23de7886395077e5a7501'
+      },
+    ],
     "@vuepress/back-to-top",
     "@vuepress/active-header-links",
     "@vuepress/medium-zoom",
