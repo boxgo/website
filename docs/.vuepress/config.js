@@ -63,7 +63,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji-analytics',
       {
-        key: 'f13bb977c3e23de7886395077e5a7501'
+        key: 'f2b62129b09eeaa3592e13ba88fb6f8d'
       },
     ],
     "@vuepress/back-to-top",
