@@ -34,6 +34,13 @@ module.exports = {
             "/guide/quickstart",
           ],
         },
+        {
+          title: "核心模块",
+          children: [
+            "/guide/boot",
+            "/guide/config",
+          ],
+        },
       ],
     },
     sidebarDepth: 2,
