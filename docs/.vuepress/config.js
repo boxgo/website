@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         text: "指南",
-        link: "/guide/",
+        link: "/guide/description",
       },
     ],
     repo: "boxgo/box",
