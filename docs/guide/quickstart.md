@@ -30,10 +30,6 @@ grpc-go version: **1.26**
 
 ```yaml
 # box.yaml
-source:
-  - type: file
-    path: box.yaml
-
 box:
   name: testBox
   version: 1.0.0

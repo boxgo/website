@@ -53,6 +53,43 @@ source:              # 配置中心接入信息
 系统内置 `文件`, `Etcd`, `Redis`, `Mongodb` 四种配置源。如果你的配置信息存储在其他类型的配置源，可以通过实现 [source.Source](https://pkg.go.dev/github.com/boxgo/box@v1.0.0-beta/pkg/config/source#Source) 接口来实现扩展。
 
 
+### File
+1. 如果 **启动配置文件** 的 `soruce` 未设置，将从当前文件获取配置
+2. 如果 **启动配置文件** 的 `source` 设置如下，将从指定文件获取配置
+
+```yml
+source:
+  - type: file      # 固定file
+    path: box.yaml  # 应用的配置文件
+```
+
+### MongoDB
+在 **启动配置文件** 的`source` 下如下填写：
+```yaml
+source:
+  - type: mongodb                     # 固定mongodb
+    uri: "mongodb://127.0.0.1:27017"  # mongodb uri
+    db: config                        # 数据库
+    collection: box_config            # 表
+    service: testBox                  # 配置信息的key
+```
+
+### Redis
+在 **启动配置文件** 的`source` 下如下填写：
+```yaml
+source:
+ - type: redis
+   prefix: test                               # 配置信息的key的前缀
+   redis:
+      password: "your redis password"         # redis密码
+      address:                                # redis ip地址列表
+        - 127.0.0.1:6379
+      db: 0                                   # 使用的db
+      poolSize: 10                            # 连接池大小
+      minIdleConnCnt: 2                       # 最小的空闲连接数
+      masterName: "The sentinel master name"  # 哨兵模式时的master name
+```
+
 ### Etcd
 在 **启动配置文件** 的`source`下如下填写：
 ```yaml
@@ -73,45 +110,6 @@ PS：如果**stripPrefix**是false，配置信息中需增加**prefix**的值作
     }
 }
 ```
-
-
-### Redis
-在 **启动配置文件** 的`source` 下如下填写：
-```yaml
-source:
- - type: redis
-   prefix: test                               # 配置信息的key的前缀
-   redis:
-      password: "your redis password"         # redis密码
-      address:                                # redis ip地址列表
-        - 127.0.0.1:6379
-      db: 0                                   # 使用的db
-      poolSize: 10                            # 连接池大小
-      minIdleConnCnt: 2                       # 最小的空闲连接数
-      masterName: "The sentinel master name"  # 哨兵模式时的master name
-```
-
-
-### Mongodb
-在 **启动配置文件** 的`source` 下如下填写：
-```yaml
-source:
-  - type: mongodb                     # 固定mongodb
-    uri: "mongodb://127.0.0.1:27017"  # mongodb uri
-    db: config                        # 数据库
-    collection: box_config            # 表
-    service: testBox                  # 配置信息的key
-```
-
-
-### File
-在 **启动配置文件** 的`source` 下如下填写：
-```yml
-source:
-  - type: file      # 固定file
-    path: box.yaml  # 应用的配置文件
-```
-
 
 ## 应用配置信息
 

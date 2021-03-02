@@ -1,37 +1,37 @@
-<mxfile host="65bd71144e" modified="2020-11-22T13:45:41.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="ZRfmCp07cib-HIQ7RJfA" version="13.6.5">
+<mxfile host="65bd71144e" modified="2021-03-02T16:06:54.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="aTPTWoPhHokDLVic6pv2" version="14.2.4" type="embed">
     <diagram id="wzIus8m3xKinxh3UsKav" name="第 1 页">
-        <mxGraphModel dx="815" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+        <mxGraphModel dx="1151" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="5" value="读取&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;启动配置文件&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="197" y="30" width="120" height="60" as="geometry"/>
+                <mxCell id="5" value="读取&lt;br&gt;&lt;font color=&quot;#ffff66&quot;&gt;启动配置文件&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="217" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="连接&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;配置中心&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="363" y="30" width="120" height="60" as="geometry"/>
+                <mxCell id="6" value="连接&lt;br&gt;&lt;font color=&quot;#ffff66&quot;&gt;配置中心&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="383" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="读取&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;应用配置信息&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="30" width="120" height="60" as="geometry"/>
+                <mxCell id="7" value="读取&lt;br&gt;&lt;font color=&quot;#ffff66&quot;&gt;应用配置信息&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="shape=flexArrow;endArrow=classic;html=1;width=13;endSize=4.22;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontColor=#FFFFFF;fontStyle=1;strokeColor=#006EAF;" parent="1" source="5" target="6" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="330" y="20" as="sourcePoint"/>
-                        <mxPoint x="400" y="20" as="targetPoint"/>
+                        <mxPoint x="350" y="20" as="sourcePoint"/>
+                        <mxPoint x="420" y="20" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontColor=#FFFFFF;fontStyle=1;strokeColor=#006EAF;" parent="1" source="6" target="7" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="490" y="20" as="sourcePoint"/>
-                        <mxPoint x="540" y="-30" as="targetPoint"/>
+                        <mxPoint x="510" y="20" as="sourcePoint"/>
+                        <mxPoint x="560" y="-30" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="找到&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;启动配置文件&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="30" width="120" height="60" as="geometry"/>
+                <mxCell id="10" value="找到&lt;br&gt;&lt;font color=&quot;#ffff66&quot;&gt;启动配置文件&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;shadow=1;fillStyle=auto;fontStyle=1;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="10" target="5" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="170" y="180" as="sourcePoint"/>
-                        <mxPoint x="220" y="130" as="targetPoint"/>
+                        <mxPoint x="190" y="180" as="sourcePoint"/>
+                        <mxPoint x="240" y="130" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
