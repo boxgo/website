@@ -41,6 +41,12 @@ module.exports = {
             "/guide/config",
           ],
         },
+        {
+          title: "开发",
+          children: [
+            "/guide/module-standards",
+          ],
+        },
       ],
     },
     sidebarDepth: 2,
