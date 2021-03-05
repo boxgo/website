@@ -123,3 +123,26 @@ func (c *Config) Path() string {
 	return c.path
 }
 ```
+
+## FAQ
+
+### 加载没有报错，但是配置未加载成功。
+
+1. `Config` 的 `Path()` 是否正确
+2. `Cofnig` 反序列化的 `tag` 是 `config`
+3. 字段必须是导出字段（大写开头），如下：
+
+```go
+type (
+	Config struct {
+		field0 string                                                     // 不可导出字段，小写开头
+		Field1 string `config:"field1" desc:"field1 description"`         // 导出字段，大写开头
+		Field3 int    `config:"minIdleConnCnt" desc:"field3 description"` // 导出字段，大写开头
+	}
+)
+
+// Path 实例配置目录
+func (c *Config) Path() string {
+	return c.path
+}
+```
